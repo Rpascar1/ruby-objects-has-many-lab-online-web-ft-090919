@@ -17,12 +17,16 @@ class Author
     new_post.author = self 
   end
 
-  def add_post_by_title(post_title)
+   def add_post_by_title(post_title)
       post_title = Post.new(post_title)
       add_post(post_title)
   end
   
-
+  
+    def add_song_by_name(song_name)
+      song_name = Song.new(song_name)
+      add_song(song_name)
+  end
   
   def self.post_count
       Post.all.length
