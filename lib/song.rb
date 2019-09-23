@@ -14,8 +14,8 @@ attr_accessor :name, :artist, :song, :artist_name
    @@all
  end
 
-  def artist_name(artist)
-    song.artist = artist
+  def artist_name
+    artist_name = song.artist
   end
  
  
