@@ -2,7 +2,7 @@ class Author
 
      @@all = []
 
-  attr_accessor :name, :new_post
+  attr_accessor :name, :newpost
 
   def initialize(name)
     @name = name
