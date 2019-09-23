@@ -14,4 +14,10 @@ attr_accessor :name, :author, :title
    @@all
  end
  
+ def title(title_name)
+   title = title_name
+ end
+ 
+ 
+ 
 end
