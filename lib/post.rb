@@ -14,4 +14,7 @@ attr_accessor :title, :author, :author_name
    @@all
  end
  
+ def author_name
+   author_name
+ 
 end
