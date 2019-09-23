@@ -15,7 +15,7 @@ attr_accessor :name, :author, :title
  end
  
  def title(title_name)
-   title = title_name
+   
  end
  
  
