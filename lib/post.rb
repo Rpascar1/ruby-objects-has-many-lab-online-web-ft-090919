@@ -1,6 +1,6 @@
 class Post
   
-attr_accessor :title, :author, :title
+attr_accessor :title, :author
  
  @@all = []
 
