@@ -14,9 +14,6 @@ attr_accessor :title, :author
    @@all
  end
  
- def title(title)
-   @title = title
- end
  
 
  
