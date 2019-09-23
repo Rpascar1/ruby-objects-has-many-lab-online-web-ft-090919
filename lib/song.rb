@@ -15,7 +15,7 @@ attr_accessor :name, :artist, :song, :artist_name
  end
 
   def artist_name
-    artist_name = song.artist
+    artist_name = song.artist || nil 
   end
  
  
