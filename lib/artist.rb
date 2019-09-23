@@ -1,4 +1,4 @@
-require'pry'
+
 class Artist
 
      @@all = []
@@ -26,7 +26,6 @@ class Artist
   
   def self.song_count
       @@all.length
-      binding.pry
   end  
   
 
