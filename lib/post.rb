@@ -10,7 +10,7 @@ attr_accessor :name, :author, :title
     
  end
  
- def self.post
+ def self.all
    @@all
  end
  
