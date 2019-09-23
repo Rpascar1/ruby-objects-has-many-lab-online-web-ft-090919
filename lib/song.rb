@@ -15,7 +15,8 @@ attr_accessor :name, :artist, :song, :artist_name
  end
  
  def artist_name
-   
+   artist_name = artist
+ end  
  
  
  
