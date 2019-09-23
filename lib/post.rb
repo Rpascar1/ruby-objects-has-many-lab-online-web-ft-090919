@@ -13,10 +13,7 @@ attr_accessor :title, :author, :author_name
  def self.all
    @@all
  end
- 
- def author_name
-   author_name = author
- end
+
  
  
 end
