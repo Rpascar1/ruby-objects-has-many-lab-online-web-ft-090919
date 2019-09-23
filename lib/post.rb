@@ -14,6 +14,10 @@ attr_accessor :title, :author, :author_name
    @@all
  end
 
- 
- 
+def author_name
+  if author
+    authorname = author
+  else 
+    nil
+ end
 end
